@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> UTD - AULA 01 </title>
+
+		<!-- Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-3"></div>
+				<div class="col-6">
+					<hr><h3> Formulario de Cadastro </h3><hr>
+					<form action="recebe.php" method="POST">
+						<label> <i class="fa fa-user"></i> Numero 1</label><br>
+						<input type="text" class="form-control" name="n1" placeholder="Digite o numero 1"><br><br>	
+
+						<label> <i class="fa fa-envelope"></i> Numero 2 </label><br>
+						<input type="text" class="form-control" name="n2" placeholder="Digite o numero 2"><br><br>
+
+						<label> <i class="fa fa-globe"></i> Numero 3</label><br>
+						<input type="text" class="form-control" name="n3" placeholder="Digite numero 3"><br><br>
+
+						
+						<label> <i class="fa fa-address-card"></i> Numero 4 </label><br>
+						<input type="text" class="form-control" name="n4" placeholder="Digite o numero 4"><br><br>
+
+
+						<label> <i class="fa fa-address-card"></i> Numero 5 </label><br>
+						<input type="text" class="form-control" name="n5" placeholder="Digite o numero 5"><br><br>
+
+
+						<label> <i class="fa fa-address-card"></i> Numero 6 </label><br>
+						<input type="text" class="form-control" name="n6" placeholder="Digite o numero 6"><br><br>
+
+
+						<label> <i class="fa fa-address-card"></i> Numero 7 </label><br>
+						<input type="text" class="form-control" name="n7" placeholder="Digite o numero 7"><br><br>
+
+
+						<label> <i class="fa fa-address-card"></i> Numero 8 </label><br>
+						<input type="text" class="form-control" name="n8" placeholder="Digite o numero 8"><br><br>
+
+
+						<label> <i class="fa fa-address-card"></i> Numero 9 </label><br>
+						<input type="text" class="form-control" name="n9" placeholder="Digite o numero 9"><br><br>
+
+
+						<label> <i class="fa fa-address-card"></i> Numero 10 </label><br>
+						<input type="text" class="form-control" name="n10" placeholder="Digite o numero 10"><br><br>
+
+
+						
+					</form>	
+
+				</div>
+				<div class="col-3"></div>
+			</div>
+		</div>
+
+			
+	</body>
+</html>
